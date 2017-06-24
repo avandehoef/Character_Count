@@ -42,8 +42,6 @@ namespace Letterfrequenties
             letter = textBoxLetter.Text;
             counter = 0;
 
-            StringBuilder strBuilder = new StringBuilder(input);
-
             try
             {
                 if (textBoxLetter.Text == " " || textBoxLetter.Text == "" || textBoxLetter.Text == null)
